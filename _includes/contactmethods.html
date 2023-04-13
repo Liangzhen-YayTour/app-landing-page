@@ -1,0 +1,25 @@
+<div class="contactmethods">
+
+    {% for method in site.contactmethods %}
+
+    {% if method.title %}
+    <div class="feature">
+        <div>
+            <span class="fa-stack fa-1x">
+                <i class="iconBack fas fa-circle fa-stack-2x"></i>
+                <i class="iconTop fas fa-{{ feature.fontawesome_icon_name }} fa-stack-1x"></i>
+                <!-- <i class="iconTop fas fa-{{ magic }} fa-stack-1x"></i> -->
+            </span>
+        </div>
+        <div class="featureText">
+            <h3>
+                {{ method.title }}
+            </h3>
+            <img class="appIconLarge" src="{{ method.qrcode | relative_url }}">
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>

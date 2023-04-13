@@ -5,15 +5,16 @@ page_title                                :                                     
 ios_app_id                                : huikunzheng9955@gmail.com                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            : https://baidu.com                                     # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+appstore_link                             : https://app.yaytour.com                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : https://app.yaytour.com                                      # Enter Google Play Store URL.
+presskit_download_link                    : https://app.yaytour.com                                        # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/yay.jpg                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : YayTour 野兔组队                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 新人不迷路，单人不孤独 北美华人组队工具，超会玩超爱玩的年轻人都在这里 旅游/户外/城市活动/文化艺术/桌游唱k
+app_price                                 : 新人不迷路，单人不孤独                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : 北美华人组队工具，会玩爱玩的年轻人都在这里
+app_description2                          : 运动/户外/旅游/城市活动/文化艺术/桌游唱k
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -30,6 +31,14 @@ twitter_username                          : ebaehr
 github_username                           : emilbaehr
 youtube_username                          :
 
+contactmethods                                  :
+
+  - title                                 : 微信
+    qrcode                                : assets/wechat.jpg
+    
+  - title                                 : 小红书
+    qrcode                                : assets/red.jpg
+
 
 
 # Feature List                            Edit, add or remove features to be presented.
@@ -38,23 +47,23 @@ features                                  :
   - title                                 : 参加活动
     description                           : 发现周围的海量活动;
     description2                          : 报名参与你感兴趣的活动;
-    description3                          : AI 推荐你可能感兴趣的活动;
+    description3                          : 推荐你可能感兴趣的活动;
     description4                          : 活动参与者质量高/匹配度好;
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : fire
     
   - title                                 : 组织活动
-    description                           : 活动前：强大的活动策划工具，让办活动异常简单;   
-    description2                          : 活动时：管理平台，精准曝光给目标用户;
-    description3                          : 活动时：完成成员管理，报名/取消/筛选/waitlist等;
-    description4                          : 活动后：收集反馈
+    description                           : 活动前：强大的活动策划工具，精准曝光给目标用户;   
+    description2                          : 活动时：成员管理，报名/取消/筛选/候补等;
+    description3                          : 活动后：收集反馈
+    description4                          : 扶持活动组织者成长，增加商业合作收入
     fontawesome_icon_name                 : mobile
 
   - title                                 : 活动启发
     description                           : 推荐周边有趣的目的地;   
     description2                          : 推荐实时的/有季节性的体验;
     description3                          : 一生一次的更震撼的玩法与体验;
-    description4                          : 其他用户创造的攻略/UGC活动内容与攻略
-    fontawesome_icon_name                 : play-circle
+    description4                          : UGC活动内容与攻略
+    fontawesome_icon_name                 : magic
 
   - title                                 : 社交生态
     description                           : 参与活动之前，通过平台了解参与者;  
@@ -90,23 +99,23 @@ features                                  :
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color                              : "#ffffff"
+topbar_transparency                       : 0
+topbar_title_color                        : "#000000"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image                               :  assets/headerimage.png               # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#ffffff"
+cover_overlay_transparency                : 0
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#000000"
 
 link_color                                : "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#000000"
+app_price_color                           : "#000000"
+app_description_color                     : "#000000"
 
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"

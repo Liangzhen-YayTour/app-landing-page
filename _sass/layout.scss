@@ -11,13 +11,12 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-	border-radius: 0px 0px 40px 40px;
 
 }
 
 .headerBackground {
 	height: 115px;
-	background-color: rgba($header-color, $header-transparency);
+	background-color: #fff;
 }
 
 @media only screen and (max-width: 768px) {
@@ -271,6 +270,12 @@ nav > ul li a:active {
 	clip-path: url(#shape120);
 }
 
+.qrcode {
+	width: 120px;
+	height: 120px;
+	margin-top: 20px;
+}
+
 .appNamePriceContainer {
 	display: flex;
 	flex: 0 1 auto;
@@ -479,7 +484,7 @@ nav > ul li a:active {
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
-	margin-top: 93px;
+	margin-top: 11px;
 }
 
 .feature {
@@ -487,18 +492,18 @@ nav > ul li a:active {
 	padding-top: 63px;
 	padding-left: 15px;
 	padding-right: 15px;
-	width: calc(100%/3);
+	width: calc(100%/2);
 }
 
-.feature:nth-child(-n+3) {
-    padding-top: 0px;   
+.feature:nth-child(-n+2) {
+  adding-top: 0px;   
 }
 
-.feature:nth-child(3n) {
+.feature:nth-child(2n) {
 	padding-right: 0px;
 }
 
-.feature:nth-child(3n+1) {
+.feature:nth-child(2n+1) {
 	padding-left: 0px;
 }
 
@@ -532,6 +537,14 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
+.methodText {
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	flex-grow: 1;
+	padding: 50px;
+}
+
 @media only screen and (max-width: 992px) {
 
 	.features {
@@ -549,7 +562,7 @@ nav > ul li a:active {
 		width: 100%;
 	}
 
-	.feature:nth-child(-n+3) {
+	.feature:nth-child(-n+2) {
 		padding-top: 41px;   
 	}
 
@@ -557,11 +570,11 @@ nav > ul li a:active {
 		padding-top: 0px;   
 	}
 
-	.feature:nth-child(3n) {
+	.feature:nth-child(2n) {
 		padding-right: 15px;
 	}
 	
-	.feature:nth-child(3n+1) {
+	.feature:nth-child(2n+1) {
 		padding-left: 15px;
 	}
 	
@@ -584,7 +597,7 @@ nav > ul li a:active {
 		width: 100%;
 	}
 
-	.feature:nth-child(-n+3) {
+	.feature:nth-child(-n+2) {
 		padding-top: 41px;   
 	}
 
@@ -592,11 +605,11 @@ nav > ul li a:active {
 		padding-top: 0px;   
 	}
 
-	.feature:nth-child(3n) {
+	.feature:nth-child(2n) {
 		padding-right: 0px;
 	}
 	
-	.feature:nth-child(3n+1) {
+	.feature:nth-child(2n+1) {
 		padding-left: 0px;
 	}
 	
