@@ -5,8 +5,8 @@ page_title                                :                                     
 ios_app_id                                : huikunzheng9955@gmail.com                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://app.yaytour.com                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            : https://app.yaytour.com                                      # Enter Google Play Store URL.
+appstore_link                             : https://apps.apple.com/us/app/%E9%87%8E%E5%85%94%E7%BB%84%E9%98%9F/id6448244192                                        # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.yaytour.androidapp&pcampaignid=web_share                                  # Enter Google Play Store URL.
 presskit_download_link                    : https://app.yaytour.com/groups   
 presskit_download_link2                    : https://app.yaytour.com/tours 
 presskit_download_link3                    : https://app.yaytour.com/account                                      # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
