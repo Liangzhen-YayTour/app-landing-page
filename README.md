@@ -1,4 +1,4 @@
-* Deployment Steps:
+## Deployment Steps:
 
 ```
 1. firebase login --reauth
