@@ -1,7 +1,8 @@
 {
   "projects": {
     "webapp": "yaytourlandingpage",
-    "landingpge": "yaytourlandingpage"
+    "landingpge": "yaytourlandingpage",
+    "default": "yaytourlandingpage"
   },
   "targets": {},
   "etags": {}
